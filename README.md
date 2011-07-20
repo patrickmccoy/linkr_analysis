@@ -11,7 +11,7 @@ Various database analysis code for the [linkr](http://linkr.cc) ([Github](https:
 
 Using these files to preform analysis on your MongoDB database is easy, just type the following command into your terminal:
 
-	mongo linkr [filename.js]
+	mongo linkr filename.js
  
 This will connect to the linkr database and execute the code in filename.js
 
