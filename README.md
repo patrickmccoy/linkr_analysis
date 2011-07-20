@@ -10,13 +10,16 @@ Various database analysis code for the [linkr](http://linkr.cc) ([Github](https:
 ## Using ##
 
 Using these files to preform analysis on your MongoDB database is easy, just type the following command into your terminal:
+
  mongo linkr [filename.js]
  
 This will connect to the linkr database and execute the code in filename.js
 
 To do this using the links_per_user.js file:
+
  mongo linkr links_per_user.js
 
 The result will be in the links_per_user collection in the linkr database.  To view this collection connect to the linkr database using the mongo shell and type the following to get a sorted list of links per user:
+
  db.links_per_user.find().sort({ "value.count": -1 });
 
