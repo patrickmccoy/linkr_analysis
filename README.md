@@ -6,6 +6,7 @@ Various database analysis code for the [linkr](http://linkr.cc) ([Github](https:
 
 - Links per user (links_per_user.js)
 - Number of times a link was added (link_add_count.js)
+- Time a link has spent in the unread state (link_wait_time.js)
 
 ## Using ##
 
